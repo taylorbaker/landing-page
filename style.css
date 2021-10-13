@@ -1,0 +1,153 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.header,
+.container.top,
+.footer {
+  background: #1F2937;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 75px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+.container {
+  padding: 50px 75px;
+}
+
+.container.top {
+  display:flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.hero {
+  width: 450px;
+}
+
+.hero .main-text {
+  font-size: 48px;
+  font-weight: 700;
+  color: #F9FAF8;
+}
+
+.container.info {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.info-header {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+}
+
+.illustrations {
+  display: flex;
+  gap: 10px;
+}
+
+.pair {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.placeholder {
+  width: 125px;
+  height: 125px;
+  border: 5px solid #3882F6;
+  border-radius: 15px;
+}
+
+.pair > .text {
+  width: 150px;
+  text-align: center;
+  color: #6D747D;
+}
+
+.quote {
+  background: #E5E7EB;
+  display: flex;
+  justify-content: center;
+  color: #1F2937;
+  padding: 75px 240px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper > .text {
+  font-size: 36px;
+  width: 500px;
+}
+
+.wrapper > .attribution {
+  align-self: flex-end;
+  font-weight: 900;
+}
+
+.cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 75px;
+}
+
+.mobile {
+  display: flex;
+  justify-content: space-between;
+  background: #3882F6;
+  color: white;
+  padding: 30px 60px;
+  border-radius: 5px;
+  width: 700px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.hero .subtext,
+.footer,
+a {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 10px;
+  gap: 10px;
+}
+
+button {
+  background-color: #3882F6;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid white;
+  padding: 5px 15px;
+}
